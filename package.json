@@ -1,6 +1,6 @@
 {
-  "name": "handranker",
-  "version": "1.0.5",
+  "name": "handranker-latest",
+  "version": "2.0.2",
   "private": false,
   "dependencies": {
     "underscore": "1.5.1"
@@ -11,14 +11,14 @@
     "test": "test"
   },
   "devDependencies": {
-      "should": "1.2.2"
+    "should": "1.2.2"
   },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/loganjspears/ranker.git"
+    "url": "https://github.com/sushiljainam/handranker.git"
   },
   "keywords": [
     "poker",
@@ -27,6 +27,6 @@
   "author": "Logan Spears (loganjspears@gmail.com)",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/loganjspears/ranker/issues"
+    "url": "https://github.com/sushiljainam/handranker/issues"
   }
 }
