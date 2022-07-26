@@ -22,7 +22,7 @@ Installation
 Ranker is available through npm:
 
 ```
-  $ npm install handranker
+  $ npm install handranker-latest
 ```
 
 Usage
@@ -31,7 +31,7 @@ Usage
 Evaluate a single hand:
 
 ```
-  var Ranker = require('handranker');
+  var Ranker = require('handranker-latest');
   var cards = ['3s', '3c', 'Ac', 'Ah', '3d'];
   var result = Ranker.getHand(cards);
 ```  
@@ -191,7 +191,7 @@ Ranker has a convenience method for a deck, also Ranker can except cards in mult
 ```
 
 var _ = require('underscore');
-var Ranker = require('handranker');
+var Ranker = require('handranker-latest');
 
 var cards = _.shuffle( Ranker.deck() );
 
